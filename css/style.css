@@ -1,0 +1,129 @@
+body{
+    /* background-image: url("req.jpg"); */
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+    
+
+}
+@media screen and (min-width:360px) and (max-width:1024px) {
+    .logo {
+        width: 72px;
+        height: 69px;
+        display: block;
+        margin: auto;
+    }
+    body #messageInp {
+        width: 73%;
+        border: 2px solid black;
+        border-radius: 6px;
+        height: 31px;
+    }
+    body .btn {
+        width: 37px;
+        margin: auto;
+        display: block;
+        position: inherit;
+        }
+    body{
+        background-color: coral;
+    }
+    
+    .container .message {
+        font-size: large;
+        font-weight: bolder;
+        background-color: white;
+        width: 100px;
+        padding: 10px;
+        margin: 13px -31px;
+        border: 2px solid black;
+        border-radius: 16px;
+    }
+    
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{  
+    background-image: url("background.jpg");
+    border: 2px solid black ;
+    max-width: 955px;
+    display: block;
+    margin: auto;
+    height: 80vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    font-size: large;
+    font-weight: bolder;
+    background-color:white;
+    width: 300px;
+    padding:10px;
+    margin: 17px 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+
+}
+.left{
+    
+    float: left;
+    clear: both;
+
+}
+.right{
+    
+    float:right;
+    clear: both;
+
+}
+#send-container{
+    
+    display: block;
+    margin: auto;
+    max-width: 995px;
+    text-align: center;
+    width: 100%;
+}
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    width: 30px;
+    position: absolute;
+
+}
+li{
+    left: 200px;
+    list-style: none;
+    display: inline;
+}
+.foot img{
+    
+    width:40px ;
+    
+   
+
+}
+.foot{
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    color: blanchedalmond;
+    background-color:black;
+}
